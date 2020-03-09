@@ -1,13 +1,13 @@
 # PrinterTon Marlin
 
-Este proyecto recoge mi código de Marlin personalizado para mi Ender 3 pro modificada. La versión de Marlin es la 2.0.4, y los cambios en la Ender original
+Este proyecto recoge el código Marlin personalizado para mi Ender 3 pro modificada. La versión de Marlin es la 2.0.4, y los cambios en la Ender original
 son los siguientes:
 
  1. **Placa**: MKS Gen L v2.0.
- 2. **Drivers**: TMC2208 v2.0 (modo UART) para los motores del eeje X, Y, Z y extrusor.
- 3. **Ventiladores**: noctua de 12V para el hotend y dos ventilador de 24V para la electrónica. 
+ 2. **Drivers**: TMC2208 v2.0 (modo UART) para los motores de los ejes X, Y, Z y extrusor.
+ 3. **Ventiladores**: noctua de 12V para el hotend y dos ventiladores de 24V para la electrónica. 
 
-Puntos a tener en cuenta de cara a actualizar el firmware de la electrónica:
+Puntos a tener en cuenta de cara a actualizar el firmware de la electrónica a través del IDE de Arduino: 
 
  1. **Placa**: Arduino/Genuino Mega or Mega 2560.
  2. **Procesador**: ATmega 256.
@@ -20,6 +20,6 @@ Configuración de Marlin de ejemplo para la Ender 3 con las siguientes modificac
 
  1. **Drivers**: TMC2208.
  2. **Placa**:  BOARD_MKS_GEN_L_V2.
- 3. **Cambio de filamento**: ADVANCED_PAUSE_FEATURE (También requiere habilitar PARK_HEAD_ON_PAUSE y NOZZLE_PARK_FEATURE).
+ 3. **Cambio de filamento**: ADVANCED_PAUSE_FEATURE (también requiere habilitar PARK_HEAD_ON_PAUSE y NOZZLE_PARK_FEATURE).
  4. **Cambio de filamento por LCD**: FILAMENT_LOAD_UNLOAD_GCODES (requiere el anterior punto).
  5. **Activación del ventilador automático del extrusor a partir de 50 grados**: 7 (E0_AUTO_FAN_PIN).
