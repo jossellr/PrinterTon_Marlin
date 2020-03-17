@@ -6,6 +6,7 @@ son los siguientes:
  1. **Placa**: MKS Gen L v2.0.
  2. **Drivers**: TMC2208 v2.0 (modo UART) para los motores de los ejes X, Y, Z y extrusor.
  3. **Ventiladores**: noctua de 12V para el hotend y dos ventiladores de 24V para la electrónica. 
+ 4. **Extrusor**: el extrusor que utilizo es el BMG clonado de Trianglelab.
 
 Puntos a tener en cuenta de cara a actualizar el firmware de la electrónica a través del IDE de Arduino: 
 
@@ -23,3 +24,8 @@ Configuración de Marlin de ejemplo para la Ender 3 con las siguientes modificac
  3. **Cambio de filamento**: ADVANCED_PAUSE_FEATURE (también requiere habilitar PARK_HEAD_ON_PAUSE y NOZZLE_PARK_FEATURE).
  4. **Cambio de filamento por LCD**: FILAMENT_LOAD_UNLOAD_GCODES (requiere el anterior punto).
  5. **Activación del ventilador automático del extrusor a partir de 50 grados**: 7 (E0_AUTO_FAN_PIN).
+ 6. **Pasos de los motores**: {80, 80, 400, 415}.
+
+Configuración de Marlin para el modo UART de los drivers:
+ 1. **Driver's para los motores X, Y y Z**: corriente de 700 mA y 16 micropasos.
+ 2. **Driver del extrusor**: corriente de 300 mA y 16 micropasos.
