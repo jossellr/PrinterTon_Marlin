@@ -32,5 +32,5 @@ Configuración de Marlin para el modo UART de los drivers:
 
 # Perfiles de cura
 
-En la carpeta [a relative link](cura profiles) iré dejando perfiles de CURA. Por ahora los perfiles que hay son:
- 1. **PLA**:  [a relative link](PLA_profile.curaprofile).
+En la carpeta [cura profiles](cura%20profiles) iré dejando perfiles de CURA. Por ahora los perfiles que hay son:
+ 1. **PLA**: enlace del archivo [aquí](cura%20profiles/PLA_profile.curaprofile).
