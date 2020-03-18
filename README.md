@@ -29,3 +29,8 @@ Configuración de Marlin de ejemplo para la Ender 3 con las siguientes modificac
 Configuración de Marlin para el modo UART de los drivers:
  1. **Driver's para los motores X, Y y Z**: corriente de 700 mA y 16 micropasos.
  2. **Driver del extrusor**: corriente de 300 mA y 16 micropasos.
+
+# Perfiles de cura
+
+En la carpeta [a relative link](cura profiles) iré dejando perfiles de CURA. Por ahora los perfiles que hay son:
+ 1. **PLA**:  [a relative link](PLA_profile.curaprofile).
